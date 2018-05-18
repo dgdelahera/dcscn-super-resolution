@@ -6,7 +6,8 @@ main/output/
 main/graphs/
 main/batch_data/
 main/tf_log/
-main/data/
+main/data
+main/models
 
 
 
