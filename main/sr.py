@@ -15,8 +15,8 @@ python3 evaluate.py --layers 4 --filters 24 --file your_image_file_path
 
 import tensorflow as tf
 
-import DCSCN
-from helper import args
+import main.DCSCN as DCSCN
+from main.helper import args
 
 args.flags.DEFINE_string("file", "image.jpg", "Target filename")
 FLAGS = args.get()

@@ -11,7 +11,7 @@ Put your images under data/[your dataset name]/ and specify [your dataset name] 
 """
 import os
 import tensorflow as tf
-from helper import args, utilty as util
+from main.helper import args, utilty as util
 
 FLAGS = args.get()
 

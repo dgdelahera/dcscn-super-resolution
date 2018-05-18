@@ -4,7 +4,7 @@ from setuptools import setup
 REQUIRED_PACKAGES = ['tensorflow>=1.5', 'numpy', 'Pillow']
 
 setup(
-    name='main',
+    name='train',
     version='0.1',
     install_requires=REQUIRED_PACKAGES,
     packages=find_packages(),

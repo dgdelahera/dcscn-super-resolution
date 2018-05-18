@@ -21,8 +21,8 @@ python3 evaluate.py --layers 4  --filters 24 --dataset new_test_data
 import logging
 import tensorflow as tf
 
-import DCSCN
-from helper import args, utilty as util
+import main.DCSCN as DCSCN
+from main.helper import args, utilty as util
 
 args.flags.DEFINE_boolean("save_results", True, "Save result, bicubic and loss images")
 

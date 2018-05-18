@@ -14,7 +14,7 @@ import numpy as np
 import os
 import tensorflow as tf
 
-from helper import args, utilty as util
+from main.helper import args, utilty as util
 
 args.flags.DEFINE_integer("augment_level", 4, "Augmentation level. 4:+LR/UD/LR-UD flipped, 7:+rotated")
 
